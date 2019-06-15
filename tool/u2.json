@@ -1,0 +1,27 @@
+{
+  "name": "项目升级",
+  "type": "items",
+  "version": "1.2",
+  "toolversion": "1.0",
+  "useage": "upgrade",
+  "desc": "安全监测大数据平台",
+  "items": [
+    {
+      "name": "server-zuul",
+      "desc": "服务网关",
+      "type": "jar",
+      "version": "2.1-SNAPSHOT"
+    },
+	{
+      "name": "api-admin",
+      "desc": "综合服务",
+      "type": "jar",
+      "version": "2.1-SNAPSHOT"
+    },
+    {
+      "name": "cloud.json",
+      "desc": "cloud模块安装",
+      "type": "modulejson"
+    }
+  ]
+}

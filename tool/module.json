@@ -1,0 +1,53 @@
+{
+  "name": "项目名称test",
+  "type": "items",
+  "version": "1.0",
+  "useage": "install",
+  "toolversion": "1.0",
+  "desc": "安全监测大数据平台",
+  "items": [
+    {
+      "name": "base",
+      "type": "base",
+      "version": "1.0"
+    },
+    {
+      "name": "db",
+      "type": "base",
+      "version": "1.0"
+    },
+    {
+      "name": "nacos",
+      "type": "base",
+      "version": "1.0"
+    },
+    {
+      "name": "nginx",
+      "type": "base",
+      "version": "1.0"
+    },
+    {
+      "name": "rabbit",
+      "type": "base",
+      "version": "1.0.1"
+    },
+    {
+      "name": "redis",
+      "type": "base",
+	  "desc": "不需要gcc编译",
+      "version": "1.1"
+    },
+    {
+      "name": "api-admin",
+      "desc": "综合服务",
+      "type": "jar",
+      "version": "2.1-SNAPSHOT"
+    },
+    {
+      "name": "server-zuul",
+      "desc": "服务网关",
+      "type": "jar",
+      "version": "2.1-SNAPSHOT"
+    }
+  ]
+}
