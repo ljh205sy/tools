@@ -5,10 +5,11 @@
 sh tool.sh module.json 
 ```
 2. 执行安装包
+```
 sh iteminstall.sh jsoc.json conf.properties  (前提先编辑好conf.properties)
 或者
 sh iteminstall jsoc.json 
-
+```
 ### 一键安装脚本
  1. 修复rabbit中的deluser admin删除失败，在失败时判断是否存在用户，修改rabbit文件夹下的rabbit.json的修改
  2. 增加application.sh的内存限制，使用memconf.properties的键值对进行限制
