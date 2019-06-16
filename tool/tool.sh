@@ -5,8 +5,8 @@ declare -x nexus="192.168.118.236:8081"
 declare -x shfile="application.sh"
 
 declare -x base_component_dir="/root/vap_nacos"
-declare -x base_component_uri="http://192.168.0.106:8089/D%3A/bug0/baseComponent/"
-# declare -x base_component_uri="http://192.168.118.236:8989/D%3A/bug0/baseComponent/"
+# declare -x base_component_uri="http://192.168.0.106:8089/D%3A/bug0/baseComponent/"
+declare -x base_component_uri="http://192.168.118.236:8989/D%3A/bug0/baseComponent/"
 declare -x useagetype="install"
 
 #<== 最终生成的文件名称
@@ -172,7 +172,7 @@ function systemctlService() {
 	echo "WantedBy=multi-user.target" >>$serviceitem
 }
 
-
+#<== 本地的everything提供的http接口获取jar包
 function wgetJarItem1() {
 	local jarName="$1"
 	local jarversion="$2"
