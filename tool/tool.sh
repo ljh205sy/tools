@@ -173,7 +173,7 @@ function systemctlService() {
 }
 
 
-function wgetJarItem() {
+function wgetJarItem1() {
 	local jarName="$1"
 	local jarversion="$2"
 	local dstDir="$tempDir"
@@ -185,7 +185,7 @@ function wgetJarItem() {
 }
 
 #<== 私服nexus中获取jar文件
-function wgetJarItem1() {
+function wgetJarItem() {
 	local jarName="$1"
 	local jarversion="$2"
 	local dstDir="$tempDir"
